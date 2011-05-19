@@ -1,0 +1,8 @@
+-- Player config
+
+player = {}
+player["Mesh"] = "assets/ninja.b3d"
+player["Texture"] = "assets/nskinbl.jpg"
+player["X"] = 264
+player["Y"] = 0
+player["Z"] = -15

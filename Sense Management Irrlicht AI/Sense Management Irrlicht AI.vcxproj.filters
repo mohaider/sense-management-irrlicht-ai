@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\AI States">
+      <UniqueIdentifier>{5af4db67-fac9-494d-9a4b-528fb39e2338}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Objects">
+      <UniqueIdentifier>{7223de66-989c-4e83-8a61-f5a01ad0d03f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Regional Sense Manager">
+      <UniqueIdentifier>{c615dbce-0e10-4f51-abaa-e822c2880b5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Irrlicht">
+      <UniqueIdentifier>{105ca126-46d5-4e69-88b2-3bd2c738b8e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Misc">
+      <UniqueIdentifier>{8ef4dfe3-402b-4c6f-b5c8-9193478b2861}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other AI">
+      <UniqueIdentifier>{3442117c-f678-448c-a605-47a559f0b92e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sound">
+      <UniqueIdentifier>{7748f0fd-8939-4911-9a8e-280e4712a51a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game States">
+      <UniqueIdentifier>{80aa3b79-3131-4200-8e16-e085a933558a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game Specific">
+      <UniqueIdentifier>{eaa7d1f0-86d0-43f6-8c4d-2cc2091f2db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Textures">
+      <UniqueIdentifier>{e3c46619-e0e4-471b-9066-ea2b18dfe78b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Config Files">
+      <UniqueIdentifier>{133250d1-c572-475f-a62a-260313574e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Meshes">
+      <UniqueIdentifier>{4988d441-d5bb-4497-81e3-e96042a1500b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Scene Files">
+      <UniqueIdentifier>{9624a739-295a-41c3-bb32-198c7ba39346}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI States">
+      <UniqueIdentifier>{9ebc2c6f-c16e-4a09-9c08-38ff4fa80646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects">
+      <UniqueIdentifier>{632edd41-4880-405d-8010-4748f2db43f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Irrlicht">
+      <UniqueIdentifier>{5f34744f-cdd3-4fcf-a055-6fe4a48af23e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Misc">
+      <UniqueIdentifier>{6c3c2f94-ce9a-449f-9d43-197be4c06d93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game States">
+      <UniqueIdentifier>{87ac221b-fc5b-4a4a-a710-4b73236f0a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Specific">
+      <UniqueIdentifier>{dbdbffc1-9eec-4d11-86e6-cb914e4b8257}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sound">
+      <UniqueIdentifier>{f3182690-e491-4e0e-b5b0-e4f58c638196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other AI">
+      <UniqueIdentifier>{a8fa9d6b-7984-4446-9edb-ac44374b3d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Regional Sense Manager">
+      <UniqueIdentifier>{d3994bb6-1642-43e7-910c-31ded85a4c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Lua">
+      <UniqueIdentifier>{99b18c97-65fb-49e0-ae24-32f33a8d0190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lua">
+      <UniqueIdentifier>{52ef8b1b-6a99-42ef-bd0b-3f99617d7416}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InvestigateState.cpp">
+      <Filter>Source Files\AI States</Filter>
+    </ClCompile>
+    <ClCompile Include="PatrolState.cpp">
+      <Filter>Source Files\AI States</Filter>
+    </ClCompile>
+    <ClCompile Include="AlertState.cpp">
+      <Filter>Source Files\AI States</Filter>
+    </ClCompile>
+    <ClCompile Include="AIObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingObject.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="HearingSensor.cpp">
+      <Filter>Source Files\Regional Sense Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IrrlichtMesh.cpp">
+      <Filter>Source Files\Irrlicht</Filter>
+    </ClCompile>
+    <ClCompile Include="IrrlichtObject.cpp">
+      <Filter>Source Files\Irrlicht</Filter>
+    </ClCompile>
+    <ClCompile Include="IrrlichtScene.cpp">
+      <Filter>Source Files\Irrlicht</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game Specific</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Source Files\Other AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SteeringBehaviour.cpp">
+      <Filter>Source Files\Other AI</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="PrecisionTimer.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Source Files\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="VisionModality.cpp">
+      <Filter>Source Files\Regional Sense Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="VisionSensor.cpp">
+      <Filter>Source Files\Regional Sense Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayState.cpp">
+      <Filter>Source Files\Game States</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionalSenseManager.cpp">
+      <Filter>Source Files\Regional Sense Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageSender.cpp">
+      <Filter>Source Files\Other AI</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundModality.cpp">
+      <Filter>Source Files\Regional Sense Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LuaManager.cpp">
+      <Filter>Source Files\Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="SleepState.cpp">
+      <Filter>Source Files\AI States</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>Source Files\Game States</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlertState.h">
+      <Filter>Header Files\AI States</Filter>
+    </ClInclude>
+    <ClInclude Include="PatrolState.h">
+      <Filter>Header Files\AI States</Filter>
+    </ClInclude>
+    <ClInclude Include="InvestigateState.h">
+      <Filter>Header Files\AI States</Filter>
+    </ClInclude>
+    <ClInclude Include="AIObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingObject.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="HearingSensor.h">
+      <Filter>Header Files\Regional Sense Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Modality.h">
+      <Filter>Header Files\Regional Sense Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="RegionalSenseManager.h">
+      <Filter>Header Files\Regional Sense Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Sensor.h">
+      <Filter>Header Files\Regional Sense Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Signal.h">
+      <Filter>Header Files\Regional Sense Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionModality.h">
+      <Filter>Header Files\Regional Sense Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="VisionSensor.h">
+      <Filter>Header Files\Regional Sense Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IrrlichtMesh.h">
+      <Filter>Header Files\Irrlicht</Filter>
+    </ClInclude>
+    <ClInclude Include="IrrlichtScene.h">
+      <Filter>Header Files\Irrlicht</Filter>
+    </ClInclude>
+    <ClInclude Include="IrrlichtObject.h">
+      <Filter>Header Files\Irrlicht</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Header Files\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="PrecisionTimer.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="StateMachine.h">
+      <Filter>Header Files\AI States</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Header Files\AI States</Filter>
+    </ClInclude>
+    <ClInclude Include="SteeringBehaviour.h">
+      <Filter>Header Files\Other AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Message.h">
+      <Filter>Header Files\Other AI</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Header Files\Other AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectFactory.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayState.h">
+      <Filter>Header Files\Game States</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game Specific</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageTypes.h">
+      <Filter>Header Files\Other AI</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageSender.h">
+      <Filter>Header Files\Other AI</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundModality.h">
+      <Filter>Header Files\Regional Sense Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="LuaManager.h">
+      <Filter>Header Files\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SleepState.h">
+      <Filter>Header Files\AI States</Filter>
+    </ClInclude>
+    <ClInclude Include="StateFactory.h">
+      <Filter>Header Files\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.h">
+      <Filter>Header Files\Game States</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\config.txt">
+      <Filter>Resource Files\Config Files</Filter>
+    </None>
+    <None Include="assets\player.txt">
+      <Filter>Resource Files\Config Files</Filter>
+    </None>
+    <None Include="lua files\AI_config.txt">
+      <Filter>Resource Files\Config Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
