@@ -1,0 +1,23 @@
+-- Player signal values
+
+player_signals = {}
+player_signals["Moving"] = 100.0
+player_signals["Still"] = 50.0
+
+-- Values for the vision modality
+
+vision = {}
+vision["MaxRange"] = 300
+vision["Attenuation"] = 1.0
+vision["InverseTransmissionSpeed"] = 0.00
+vision["FieldOfViewAngle"] = 80
+
+-- Values for the sound modality
+
+sound = {}
+sound["MaxRange"] = 300
+sound["Attenuation"] = 1.0
+sound["InverseTransmissionSpeed"] = 0.00
+
+
+
